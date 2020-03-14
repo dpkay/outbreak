@@ -1,0 +1,13 @@
+#canvas {
+  width: 1000px;
+  height: 1000px;
+  border: 2px solid #555;
+}
+
+body {
+  background-color: #ddd;
+}
+
+.bar-chart {
+    background-color: #C7D9D9;
+}
