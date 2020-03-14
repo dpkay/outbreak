@@ -1,0 +1,13 @@
+{
+  "name": "outbreak",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "cp -f src/web/* gen && cp -f contrib/d3/* gen && cp -f contrib/resetcss/* gen",
+    "serve": "serve gen"
+  },
+  "devDependencies": {
+    "serve": "^11.3.0"
+  }
+}
